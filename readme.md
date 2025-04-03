@@ -1,38 +1,60 @@
-# 🎭 Gerador de Identidades Falsas
+# Gerador de Identidades Falsas 🇧🇷
 
-Este projeto é um gerador de identidades falsas utilizando a biblioteca `Faker`. Ele permite criar nomes, CPFs, emails, endereços e números de celular fictícios em português do Brasil.
+Um programa simples em Python que utiliza as bibliotecas **Faker** e **Colorama** para gerar dados fictícios de pessoas, como nome, CPF, e-mail, endereço e número de celular, com suporte para a localidade brasileira.
 
-## 🛠️ Tecnologias Utilizadas
-- 🐍 Python
-- 📦 Faker
-- 🎨 Colorama
+## 📋 Funcionalidades
+- Geração de múltiplos perfis falsos.
+- Dados incluem: Nome, CPF, E-mail, Endereço e Número de celular.
+- Interface simples no terminal.
+- Opção para encerrar o programa digitando `sair`.
 
-## 🚀 Como Utilizar
-1. Instale as dependências necessárias utilizando o comando:
+## 🚀 Tecnologias Utilizadas
+- **Python 3.x**
+- **Faker** (para gerar dados fictícios)
+- **Colorama** (para estilização do terminal)
+
+## ▶️ Como Executar
+
+1. Clone este repositório:
    ```bash
-   pip install faker colorama
+   git clone https://github.com/CauanNeves/fake-br-people.git
    ```
-2. Execute o script Python:
+
+2. Acesse a pasta do projeto:
    ```bash
-   python script.py
+   fake-br-people
    ```
-3. No menu inicial, digite a quantidade de identidades falsas que deseja gerar ou "sair" para encerrar o programa.
 
-## ✨ Funcionalidades
-- 🔹 Gera identidades fictícias com:
-  - 👤 Nome
-  - 🆔 CPF
-  - 📧 Email
-  - 🏠 Endereço
-  - 📱 Número de celular
-- 🎨 Interface interativa no terminal com cores para melhor visualização.
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 📌 Exemplo de Saída
-![Demo](Demo.gif)
+4. Execute o programa:
+   ```bash
+   python main.py
+   ```
 
-## 🤝 Contribuição
-Sinta-se à vontade para contribuir com melhorias! Basta abrir um pull request ou sugerir mudanças via issues.
+## 🛠️ Dependências
+Certifique-se de ter as bibliotecas instaladas:
+- `faker`
+- `colorama`
 
-## 📜 Licença
-Este projeto é de uso livre, sem restrições.
+Você pode instalar manualmente com:
+```bash
+pip install faker colorama
+```
 
+## 📝 Uso
+- Execute o programa.
+- Digite o número de identidades falsas que deseja gerar.
+- Digite `sair` para fechar o programa.
+
+## 📷 Demonstração
+![Demo](demo.gif)
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+
+---
+**Desenvolvido com 💻 por [Cauan Neves](https://github.com/CauanNeves)**
